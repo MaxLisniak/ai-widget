@@ -1,0 +1,111 @@
+body {
+  background-color: gainsboro;
+}
+
+.ai-widget {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.products-discover-block,
+.product-details-block {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.products-discover-block {
+  width: 600px;
+}
+
+.product-details-block {
+  width: 300px;
+}
+
+.main-heading {
+  font-weight: bold;
+}
+
+.product-list {
+  padding-left: 30px;
+}
+
+.product-li-link {
+  all: unset;
+}
+
+.product-li-best-deal-tag {
+  font-weight: bold;
+}
+
+.product-li-marketplace-name {
+  font-size: small;
+}
+
+.section-heading {
+  font-size: small;
+}
+
+.keywords-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.keyword {
+  text-decoration: none;
+  color: blue;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.text-field {
+  all: unset;
+  flex-grow: 1;
+  padding: 7px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+.search-btn {
+  all: unset;
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.product-thumbnail-section {
+  text-align: center;
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.product-price {
+  color: blue;
+}
+
+.view-deal-section {
+  display: flex;
+  justify-content: stretch;
+}
+
+.view-btn {
+  all: unset;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  font-size: small;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+}
